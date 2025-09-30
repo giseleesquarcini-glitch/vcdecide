@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Smooch+Sans:wght@100..900&display=swap');
+:root{
+
+/* CSS HEX */
+--cravo-rosa: #ff99c8ff;
+--limao-chiffon: rgb(86, 190, 150); 
+--mayanza: rgb(173, 235, 196);
+--azul-uranio: rgb(177, 87, 129);
+--titulo: "Playfair Display", serif;
+--texto: "Playfair Display", serif;
+}
+
+body{
+    background-color: aqua;
+    font-family: var(--texto);
+}
