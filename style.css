@@ -3,10 +3,11 @@
 :root {
 
     /* CSS HEX */
-    --cravo-rosa: #ff99c8ff;
-    --limao-chiffon: rgb(86, 190, 150);
-    --mayanza: rgb(173, 235, 196);
-    --azul-uranio: rgb(177, 87, 129);
+    --russia-violeta: #231942ff;
+    --ultra-violeta: #5e548eff;
+    --violeta: #9f86c0ff;
+    --lilas: #be95c4ff;
+    --pink-lavender: #e0b1cbff;
     --titulo: "Playfair Display", serif;
     --texto: "Playfair Display", serif;
 }
@@ -22,28 +23,27 @@ body {
 
 }
 
-button{
-background-color: var(--cravo-rosa);
-color: var(--branco);
-padding: 10px;
-border: 2px solid var(--branco);
-border-radius: 8px;
-font-size: 20px;
-margin: 5px;
+button {
+    background-color: var(--cravo-rosa);
+    color: var(--branco);
+    padding: 10px;
+    border: 2px solid var(--branco);
+    border-radius: 8px;
+    font-size: 20px;
+    margin: 5px;
 }
 
-button:hover{
-background-color: blueviolet;
-color: var(--cravo-rosa);
-transition: 0.5s;
-border: 2px solid #000;
-box-shadow: 2px 2px 10px #000;
-}	
-
-main{
-margin: 40px 20px;
-max-width: 90%;
-text-align: center;
-font-size: 28px;
+button:hover {
+    background-color: rgb(66, 48, 122);
+    color: var(--cravo-rosa);
+    transition: 0.5s;
+    border: 2px solid #000;
+    box-shadow: 2px 2px 10px #000;
 }
 
+main {
+    margin: 40px 20px;
+    max-width: 90%;
+    text-align: center;
+    font-size: 28px;
+}
